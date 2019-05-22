@@ -41,12 +41,10 @@ for (let i = 0; i < btn_more.length; i++) {
   });
 }
 //add
-var button = document.createElement("button");
-button. innerHTML = "Add";
+var btn = document.createElement("button");
+  document.body.appendChild(btn);
+  btn.innerHTML = "Add";
 //
-var body = document.getElementsByTagName("body");
-body.appendChild(button);
-//
-button.addEventListener ("click", function() {
-  alert("This funtion is not finnish yet =))");
+btn.addEventListener ("click", function() {
+  alert("This funtion is not finnish yet=))");
 });
